@@ -8,18 +8,6 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     tesseract-ocr \
     tesseract-ocr-vie \
-    tesseract-ocr-eng \
-    tesseract-ocr-chi-sim \
-    tesseract-ocr-chi-tra \
-    tesseract-ocr-jpn \
-    tesseract-ocr-kor \
-    tesseract-ocr-tha \
-    tesseract-ocr-ara \
-    tesseract-ocr-fra \
-    tesseract-ocr-deu \
-    tesseract-ocr-spa \
-    tesseract-ocr-rus \
-    tesseract-ocr-hin \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
